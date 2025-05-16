@@ -1,0 +1,371 @@
+.header {
+  display: grid;
+  text-align: center;
+  margin: 75px 24px 92px 24px;
+  width: 1052px;
+  flex-shrink: 0;
+  grid-template-columns: 1fr min-content 1fr;
+}
+
+.nav-header {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 25px;
+  list-style: none;
+  gap: 20px;
+}
+
+.header-link {
+  font-size: 18px;
+  letter-spacing: 0.18px;
+}
+
+.header-link-active {
+text-decoration: none;
+}
+
+.header-list-item {
+  margin-left: 10px;
+  list-style-type: circle;
+}
+
+.logo-header {
+  margin-top: 15px;
+  width: 136px;
+  height: 105px;
+  flex-shrink: 0;
+}
+
+.info {
+  width: 240px;
+  flex-shrink: 0;
+  font-size: 18px;
+  line-height: 24.3px;
+  letter-spacing: 0.35px;
+  justify-self: end;
+  margin-top: 20px;
+  margin-right: 25px;
+  text-align: left;
+  padding-left: 50px;
+  font-style: normal;
+}
+
+.flowers {
+  width: 100%;
+  min-height: 100%;
+  flex-shrink: 0;
+  background: url("../images/lotus-flower.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+  position: relative;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.cover-title {
+  padding-top: 165px;
+  z-index: 3;
+  color: #fff;
+  font-size: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: relative;
+  text-transform: uppercase;
+  display: grid;
+}
+
+.cover-text_left {
+  text-align: left;
+  letter-spacing: 30px;
+  padding-top: 5px;
+}
+
+.cover-text_center {
+  width: 100%;
+  max-width: 1310px;
+  text-align: center;
+  letter-spacing: 30px;
+  padding-top: 10px;
+}
+
+.cover-text_right {
+  text-align: right;
+  letter-spacing: 30px;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 60px;
+}
+
+.no-letter-spacing {
+  letter-spacing: normal;
+}
+
+.text-thing {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 22px;
+  word-spacing: 20px;
+  letter-spacing: -0.2px;
+}
+
+.text-flower {
+  margin-top: 130px;
+  margin-left: 78px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  z-index: 3;
+  position: relative;
+}
+
+.go-bet {
+  background: none;
+  margin-right: 50px;
+  flex-shrink: 0;
+  color: #ffffff;
+  font-size: 22px;
+  text-transform: uppercase;
+  border: 1px solid currentColor;
+  padding: 12px 32px 11px 31px;
+  margin-bottom: 51px;
+  font-family: inherit;
+}
+
+.lots-main {
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 1052px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  display: grid;
+  gap: 25px;
+  z-index: 0;
+  position: relative;
+}
+
+.lots__card {
+  position: relative;
+}
+
+.loto-log {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-top: 180px;
+  margin-left: 40px;
+}
+
+
+
+.card-lot {
+  columns: 3;
+  gap: 25px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-main {
+  width: 334px;
+  min-height: 563px;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  display: grid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image-card-film {
+  background: url("../images/card-lot-01.jpg");
+}
+
+.image-card-book {
+  background: url("../images/card-lot-02.jpg"),
+lightgray -102px -119.083px / 161.078% 142.303% no-repeat;
+}
+
+.image-card-picture {
+  background: url("../images/card-lot-03.jpg"), lightgray 50% / cover no-repeat;
+}
+
+.nav-card {
+  display: flex;
+  z-index: 3;
+}
+
+.head {
+  display: flex;
+  flex-shrink: 0;
+  color: #fff;
+  font-size: 20px;
+  line-height: 130%;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  padding-left: 40px;
+  padding-top: 50px;
+  z-index: 3;
+  position: relative;
+  letter-spacing: 0.1px;
+}
+
+.card-link {
+  text-decoration: none;
+  margin-top: 255px;
+}
+
+.card-body {
+  display: flex;
+  padding-left: 40px;
+  padding-right: 40px;
+  z-index: 3;
+  align-items: center;
+}
+
+.card-info {
+  width: 254px;
+  flex-shrink: 0;
+  color: #fff;
+  font-size: 20px;
+  line-height: 120%;
+  z-index: 3;
+  padding-bottom: 50px;
+}
+
+.see-more {
+  margin-left: 40px;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.card-link {
+  margin-top: 255px;
+  text-decoration: none;
+}
+
+.lots-book {
+  display: contents;
+}
+
+.about {
+  flex-shrink: 0;
+  margin-top: 185px;
+}
+
+.logo-about {
+  display: flex;
+  margin-left: 71px;
+  margin-top: 35px;
+  position: relative;
+}
+
+.logo-body {
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+  background: rgba(0, 0, 0, 1);
+  display: grid;
+  position: relative;
+}
+
+.main-logo {
+  width: 148px;
+  height: 114px;
+  top: 64px;
+  left: 46.48px;
+  position: absolute;
+  color: rgb(246, 246, 246);
+  display: flex;
+}
+
+.about-column {
+  display: inline-flex;
+  flex-direction: column;
+  padding-bottom: 13px;
+  margin-left: 359px;
+}
+
+.about-column:last-child {
+  gap: 20px;
+}
+
+.about-main {
+  color: #000;
+  font-family: Raleway, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-bottom: 100px;
+  margin-top: 100px;
+  margin-left: 72px;
+}
+
+.text-main {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  padding-left: 25px;
+  padding-right: 40px;
+  display: flex;
+}
+
+.footer {
+  margin-top: 150px;
+  display: flex;
+}
+
+.main-footer {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 88px;
+  align-items: flex-start;
+}
+
+.nav-footer {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  line-height: 22px;
+  padding-right: 30px;
+  padding-top: 20px;
+}
+
+.navi-footer {
+  color: #000;
+  font-size: 18px;
+}
+
+.navi-footer-active {
+  text-decoration: none;
+}
+
+.navi-footer:hover {
+  color: brown;
+}
+
+.social-footer {
+  margin-right: 50px;
+  padding-top: 20px;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 48px;
+}
+
+.social-logo {
+  width: 48px;
+  height: 48px;
+}
+
